@@ -6,7 +6,7 @@
   vars_files:
   - vars/main.yaml
   vars:
-    vpc_subnet_azs: [ 'ca-central-1a', 'ca-central-1a', 'ca-central-1b']
+    vpc_subnet_azs: "ca-central-1b,ca-central-1a,ca-central-1a"
   roles:
   # Upload ssh-key
   - { role: ssh-key, when: create_key == "yes" }
