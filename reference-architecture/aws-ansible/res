@@ -1,0 +1,38 @@
+Configured values:
+	stack_name: openshift-infra
+	ami: ami-9062d0f4
+	region: ca-central-1
+	master_instance_type: m4.large
+	node_instance_type: t2.medium
+	app_instance_type: t2.medium
+	bastion_instance_type: t2.micro
+	keypair: awscanada
+	create_key: no
+	key_path: /dev/null
+	create_vpc: yes
+	vpc_id: None
+	private_subnet_id1: None
+	private_subnet_id2: None
+	private_subnet_id3: None
+	public_subnet_id1: None
+	public_subnet_id2: None
+	public_subnet_id3: None
+	byo_bastion: no
+	bastion_sg: /dev/null
+	console port: 8443
+	deployment_type: openshift-enterprise
+	openshift_sdn: openshift-ovs-subnet
+	public_hosted_zone: ose3sandbox.com
+	app_dns_prefix: apps
+	apps_dns: apps.ose3sandbox.com
+	rhsm_user: msauve@redhat.com
+	rhsm_password: *******
+	rhsm_pool: 8a85f9815480682e015487ba927842dc
+	containerized: False
+	s3_bucket_name: ose3sandbox
+	s3_username: openshift-infra-s3-openshift-user
+	github_client_id: *******
+	github_client_secret: *******
+	github_organization: OSE3Sandbox
+
+Continue using these values? [y/N]: 
